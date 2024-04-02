@@ -1,0 +1,156 @@
+[
+   {
+      "replace" : {
+         "album" : "$1",
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : null
+      },
+      "search" : {
+         "album" : "(.*) - Single",
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : null
+      }
+   },
+   {
+      "replace" : {
+         "album" : "$1",
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : null
+      },
+      "search" : {
+         "album" : "(.*) - EP",
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : null
+      }
+   },
+   {
+      "replace" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "$1"
+      },
+      "search" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "(.*) vinyl"
+      }
+   },
+   {
+      "replace" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "$1"
+      },
+      "search" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "(.*) - \\d{4} Vinyl LP"
+      }
+   },
+   {
+      "replace" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "$1"
+      },
+      "search" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "(.*) • Vinyl • Yamaha PX-3 • V15 Type IV SAS/B • Yamaha C-4"
+      }
+   },
+   {
+      "replace" : {
+         "album" : "$1",
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : null
+      },
+      "search" : {
+         "album" : "(.*) - Single",
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : null
+      }
+   },
+   {
+      "replace" : {
+         "album" : "$1",
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : null
+      },
+      "search" : {
+         "album" : "(.*) - EP",
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : null
+      }
+   },
+   {
+      "replace" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "$1"
+      },
+      "search" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "(.*) vinyl"
+      }
+   },
+   {
+      "replace" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "$1"
+      },
+      "search" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "(.*) - \\d{4} Vinyl LP"
+      }
+   },
+   {
+      "replace" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "$1"
+      },
+      "search" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : null,
+         "track" : "(.*) • Vinyl • Yamaha PX-3 • Ortofon MC-10 • Yamaha C-4"
+      }
+   },
+   {
+      "replace" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : "$1",
+         "track" : null
+      },
+      "search" : {
+         "album" : null,
+         "albumArtist" : null,
+         "artist" : "(.*) - Topic",
+         "track" : null
+      }
+   }
+]
