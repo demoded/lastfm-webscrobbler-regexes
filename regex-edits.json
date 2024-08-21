@@ -94,7 +94,7 @@
          "album" : null,
          "albumArtist" : null,
          "artist" : null,
-         "track" : "(.*)\\(\\d{4} [R|r]emaster\\)"
+         "track" : "(.*)\\(\\d{4}\\s*[Rr]emaster(?:ed)?\\)|\\([Rr]emaster(?:ed)?(?:\\s*\\d{4})?\\)"
       }
    }
 ]
